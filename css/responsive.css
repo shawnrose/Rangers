@@ -1,0 +1,91 @@
+/* RESPONSIVE CSS - SHAWN ROSE
+------------------------------------------------------*/
+
+/*max-width: 1020px*/
+ 
+	#col-a {
+		 width: 47.5%;
+	}
+
+	#col-b {
+		 width: 47.5%;
+	}
+
+	#col-c {
+		width: 47.5%; 
+    }
+    #col-x {
+        width: 47.5%;
+    }
+
+
+
+@media screen and (max-width: 600px) {
+	
+    .mobile-collapse {
+	    width: 100%;
+	    float: none;
+	    margin: auto;
+	}
+
+   #header {
+	    width: 47.5%;
+        float: left;
+		margin: 1em;
+	}
+	
+
+	#topNav ul li {
+        border-bottom: 2px solid #003279;
+        border-right: none;
+        display: block;
+		text-align: center;
+		margin: .2em;
+        padding: .2em;
+	}
+    #slideNav ul li {
+        margin: 0 25px;
+    }
+	
+	#page-content1 {
+		background-color: #121212;
+		float: left;
+		overflow: auto;
+		margin: .5em 1em;
+		width: 47.5%;
+	}
+
+    #col-a {
+        margin: 0;
+		width: 95%;
+	}
+
+	#col-b {
+		margin: 0; 
+        width: 95%;
+	}
+
+	#col-c {
+		margin: 0;
+        width: 95%;
+    }
+
+    #col-x {
+        margin: 0;
+        width: 95%;
+    }
+
+    #page-content2 {
+		background-color: #121212;
+		float: left;
+		overflow: auto;
+		margin: 0 1em;
+		width: 47.5%;
+	}
+    
+
+}
+	
+
+	 
+ 
